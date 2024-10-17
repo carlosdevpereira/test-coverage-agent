@@ -1,0 +1,18 @@
+{
+  "preset": "ts-jest",
+  "verbose": true,
+  "clearMocks": true,
+  "testEnvironment": "node",
+  "moduleFileExtensions": ["js", "ts"],
+  "testMatch": ["**/*.test.ts", "**/*.spec.ts"],
+  "testPathIgnorePatterns": ["/node_modules/", "/dist/"],
+  "moduleNameMapper": {
+    "^@/(.*)$": "<rootDir>/src/$1",
+    "^@tests/(.*)$": "<rootDir>/tests/$1"
+  },
+  "transform": {
+    "^.+\\.ts$": "ts-jest"
+  },
+  "coverageReporters": ["json-summary", "text", "html"],
+  "collectCoverageFrom": ["./src/**"]
+}

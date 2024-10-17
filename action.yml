@@ -1,0 +1,24 @@
+name: Test coverage agent
+author: carlosdevpereira
+description: A Github Action that runs your test command, uploads the coverage report to Cloudflare and attaches the results to your pull request.
+branding:
+  color: white
+  icon: check-circle
+
+runs:
+  using: "node20"
+  main: "dist/index.js"
+
+inputs:
+  github-token:
+    description: "The github token that will be used to comment the results on available pull requests."
+    required: true
+  cloudflare-api-token:
+    description: "The API Token that will be used to upload the coverage reports to Cloudflare."
+    required: true
+  cloudflare-account-id:
+    description: "The Account ID that will be used to upload the coverage reports to Cloudflare."
+    required: true
+  cloudflare-project-name:
+    description: "The name of the Cloudflare Pages project where the coverage reports will be uploaded to."
+    required: true
