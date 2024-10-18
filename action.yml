@@ -22,3 +22,12 @@ inputs:
   cloudflare-project-name:
     description: "The name of the Cloudflare Pages project where the coverage reports will be uploaded to."
     required: true
+  test-command:
+    description: "The command that will be executed to run the tests and generate the coverage report."
+    required: true
+  coverage-location:
+    description: "The location of the coverage report that will be uploaded to Cloudflare."
+    required: true
+  base-coverage-branch:
+    description: "The base branch that will be used to compare the coverage report with."
+    required: true

@@ -1,0 +1,52 @@
+{
+  "type": "PushEvent",
+  "public": false,
+  "payload": {
+    "push_id": 1111111111,
+    "size": 1,
+    "distinct_size": 1,
+    "ref": "refs/heads/feature-branch",
+    "head": "6dcb09b5b57875f334f61aebed695e2e4193db5e",
+    "before": "6dcb09b5b57875f334f61aebed695e2e4193db5e",
+    "commits": [
+      {
+        "id": "6dcb09b5b57875f334f61aebed695e2e4193db5e",
+        "tree_id": "5b5b025afb0b4c913b758967d277acefbeecc181",
+        "message": "Initial commit",
+        "timestamp": "2011-01-26T19:01:12Z",
+        "url": "https://api.github.com/repos/octocat/Hello-World/commits/6dcb09b5b57875f334f61aebed695e2e4193db5e",
+        "author": {
+          "name": "octocat",
+          "email": "v4MzS@example.com",
+          "username": "octocat"
+        },
+        "committer": {
+          "name": "octocat",
+          "email": "v4MzS@example.com",
+          "username": "octocat"
+        }
+      }
+    ]
+  },
+  "repo": {
+    "id": 3,
+    "name": "octocat/Hello-World",
+    "url": "https://api.github.com/repos/octocat/Hello-World"
+  },
+  "actor": {
+    "id": 1,
+    "login": "octocat",
+    "gravatar_id": "",
+    "avatar_url": "https://github.com/images/error/octocat_happy.gif",
+    "url": "https://api.github.com/users/octocat"
+  },
+  "org": {
+    "id": 1,
+    "login": "github",
+    "gravatar_id": "",
+    "url": "https://api.github.com/orgs/github",
+    "avatar_url": "https://github.com/images/error/octocat_happy.gif"
+  },
+  "created_at": "2011-09-06T17:26:27Z",
+  "id": "12345"
+}

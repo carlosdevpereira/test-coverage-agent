@@ -21,12 +21,17 @@
   "scripts": {
     "build": "npx ncc build src/index.ts -o dist --source-map --license licenses.txt",
     "build:watch": "npm run build -- --watch",
+    "test": "npx jest",
+    "test:ci": "npx jest --ci",
+    "test:ci:coverage": "npx jest --ci --coverage",
     "lint": "npx eslint . -c ./.github/linters/.eslintrc.yml"
   },
   "dependencies": {
     "@actions/core": "^1.11.0",
     "@actions/github": "^6.0.0",
-    "@actions/http-client": "^2.2.3"
+    "@actions/http-client": "^2.2.3",
+    "markdown-table": "^3.0.3",
+    "shellac": "^0.8.0"
   },
   "devDependencies": {
     "@jest/globals": "^29.7.0",

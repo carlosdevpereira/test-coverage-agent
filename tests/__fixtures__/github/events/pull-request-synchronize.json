@@ -1,0 +1,42 @@
+{
+  "ref": "github-branch-name",
+  "sha": "13c988d4f15e06bcdd0b0af290086a3079cdadb0",
+  "payload": {
+    "action": "synchronize",
+    "number": 1,
+    "pull_request": {
+      "title": "Amazing new feature",
+      "number": 1347,
+      "state": "open",
+      "locked": false,
+      "user": {
+        "login": "octocat",
+        "id": 1
+      },
+      "body": "Please pull these awesome changes in!",
+      "created_at": "2011-01-26T19:01:12Z",
+      "updated_at": "2011-01-26T19:01:12Z",
+      "closed_at": null,
+      "merged": false,
+      "merged_at": null,
+      "head": {
+        "ref": "new-topic",
+        "sha": "6dcb09b5b57875f334f61aebed695e2e4193db5e",
+        "repo": {
+          "id": 1296269,
+          "name": "Hello-World",
+          "full_name": "octocat/Hello-World"
+        }
+      },
+      "base": {
+        "ref": "master",
+        "sha": "6dcb09b5b57875f334f61aebed695e2e4193db5e",
+        "repo": {
+          "id": 1296269,
+          "name": "Hello-World",
+          "full_name": "octocat/Hello-World"
+        }
+      }
+    }
+  }
+}
