@@ -1,6 +1,6 @@
 name: Test coverage agent
 author: carlosdevpereira
-description: A Github Action that runs your test command, uploads the coverage report to Cloudflare and attaches the results to your pull request.
+description: An action that runs your tests, uploads the coverage report to Cloudflare and attaches the results to your PRs.
 branding:
   color: white
   icon: check-circle
